@@ -1,3 +1,5 @@
+//Search Bar
+
 const searchString = document.getElementById("search");
 const a = document.getElementsByClassName("image");
 
@@ -20,4 +22,13 @@ searchString.addEventListener("search", () => {
       a[i].style.display = "";
     }
   }
+});
+
+//Lightbox
+
+lightbox.option({
+  alwaysShowNavOnTouchDevices: true,
+  fitImagesInViewport: true,
+  resizeDuration: 200,
+  wrapAround: true
 });

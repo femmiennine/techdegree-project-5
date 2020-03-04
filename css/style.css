@@ -49,7 +49,9 @@ h1 {
   flex-direction: column;
   justify-content: space-around;
 }
-
+.lb-image {
+  max-width: inherit;
+}
 .gallery img {
   text-align: center;
   filter: grayscale(100%);
